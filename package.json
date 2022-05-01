@@ -1,0 +1,19 @@
+{
+  "name": "app-themoviedb",
+  "version": "1.0.0",
+  "description": "Consumo de api de themoviedb para crear una aplicación web",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oen844/app-themoviedb.git"
+  },
+  "author": "Pau Egea Cortes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Oen844/app-themoviedb/issues"
+  },
+  "homepage": "https://github.com/Oen844/app-themoviedb#readme"
+}
