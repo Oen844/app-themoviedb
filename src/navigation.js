@@ -19,6 +19,8 @@ function navigator() {
 
 function homePage() {
   console.log("home");
+  getTrendingMoviesPreview();
+  getCategoriesPreview();
 }
 function moviePage() {
   console.log("movie");
