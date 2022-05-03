@@ -81,8 +81,6 @@ async function getMoviesBySearch(query) {
       },
     });
   
-    
-  
     createMovies(data.results, genericSection);
   }
   
