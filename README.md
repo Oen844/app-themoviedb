@@ -5,3 +5,16 @@ Consumo de api de themoviedb para crear una aplicación web
 - Implementa flujos de navegación para Single Page Applications
 - Consume la API de TheMovieDB
 - Crea un proyecto frontend desde cero
+- Aplicación pensada para moviles
+
+
+## Screenshots
+
+![App Screenshot](https://i.imgur.com/mHBjYVP.png)
+![App Screenshot](https://i.imgur.com/GHijIOd.png)
+![App Screenshot](https://i.imgur.com/VCyqhSc.png)
+
+
+## Deploy
+
+[Link a Demo](https://oen844.github.io/app-themoviedb/#category=35-Comedy)
