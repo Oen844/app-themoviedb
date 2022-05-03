@@ -71,16 +71,24 @@ function createMovies(movies, node) {
     movieContainer.appendChild(movieImg);
     node.appendChild(movieContainer);
   });
-  
 }
 
 async function getMoviesBySearch(query) {
-    const { data } = await api("search/movie", {
-      params: {
-        query,
-      },
-    });
-  
-    createMovies(data.results, genericSection);
-  }
-  
+  const { data } = await api("search/movie", {
+    params: {
+      query,
+    },
+  });
+
+  createMovies(data.results, genericSection);
+}
+
+async function getTrendingMovies() {
+  const { data } = await api("trending/movie/day");
+
+  const movies = data.results;
+
+  headerCategoryTitle.innerHTML = "Trending Movies";
+
+  createMovies(movies, genericSection);
+}
