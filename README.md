@@ -17,4 +17,4 @@ Consumo de api de themoviedb para crear una aplicación web
 
 ## Deploy
 
-[Link a Demo](https://oen844.github.io/app-themoviedb/#category=35-Comedy)
+[Link a Demo](https://oen844.github.io/app-themoviedb/)
