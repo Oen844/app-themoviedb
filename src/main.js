@@ -74,4 +74,15 @@ function createMovies(movies, node) {
   
 }
 
-
+async function getMoviesBySearch(query) {
+    const { data } = await api("search/movie", {
+      params: {
+        query,
+      },
+    });
+  
+    
+  
+    createMovies(data.results, genericSection);
+  }
+  
