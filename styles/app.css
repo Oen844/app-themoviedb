@@ -357,9 +357,12 @@ footer {
   display: none;
 }
 
-/* @media screen and(min-width: 768px) {
+@media (min-width: 1024px) {
   .movieDetail-container{
-    margin-left: 91px;
+    margin: 402px !important;
+    margin-top: 0;
   }
+  .genericList-container  {
+    width: 60%
 }
-   */
+}
